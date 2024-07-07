@@ -1,0 +1,45 @@
+This folder: /media/daniella/B/git/nerdy DAOs/FilePeace/Sites/Site
+
+folderstamp version: r5
+Method: Non-recursive
+
+  File: ./icon.png
+  Size: 258804    	Blocks: 512        IO Block: 4096   regular file
+Device: 8,52	Inode: 2984834     Links: 1
+Access: (0755/-rwxr-xr-x)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2024-07-07 15:28:08.189382200 -0300
+Modify: 2023-04-27 21:57:38.542113500 -0300
+Change: 2024-07-07 15:28:07.954376500 -0300
+ Birth: 2024-07-07 15:19:27.777873200 -0300
+IPFS hash: QmP6YzpbH6uV7mLtV1CRk4oRsNrb6hAvC9Mztd3ssb4TpY
+------------------------------
+  File: ./icon.svg
+  Size: 207749    	Blocks: 408        IO Block: 4096   regular file
+Device: 8,52	Inode: 3041165     Links: 1
+Access: (0755/-rwxr-xr-x)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2024-07-07 15:28:08.196382400 -0300
+Modify: 2023-04-27 21:57:56.123109700 -0300
+Change: 2024-07-07 15:28:07.958376500 -0300
+ Birth: 2024-07-07 15:19:27.803875300 -0300
+IPFS hash: QmdRagc1F4Ty8uqyVCHrgoor9FhBKKZ96bZXHLKcbmCD6U
+------------------------------
+  File: ./index.html
+  Size: 1934      	Blocks: 8          IO Block: 4096   regular file
+Device: 8,52	Inode: 3117490     Links: 1
+Access: (0755/-rwxr-xr-x)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2024-07-07 15:31:57.956378400 -0300
+Modify: 2023-08-26 23:24:46.012425300 -0300
+Change: 2024-07-07 15:28:07.963376700 -0300
+ Birth: 2024-07-07 15:19:27.822876800 -0300
+IPFS hash: QmR7e4pQ9rzNmJtpTi1hwbpPh9Y6pQVxyiA98w4m5DAKnQ
+------------------------------
+  File: ./Untitled Folder
+  Size: 0         	Blocks: 0          IO Block: 4096   directory
+Device: 8,52	Inode: 2730925     Links: 1
+Access: (0775/drwxrwxr-x)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2024-07-07 15:32:38.533166100 -0300
+Modify: 2024-07-07 15:32:40.148197000 -0300
+Change: 2024-07-07 15:32:40.148197000 -0300
+ Birth: 2024-07-07 15:32:38.533166100 -0300
+IPFS hash: 
+------------------------------

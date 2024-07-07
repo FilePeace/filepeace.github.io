@@ -1,0 +1,63 @@
+commit QmXVg3ffFBJTuAJNntbu5KsTHaN1NL5EBe4GBtDy4gBbPH
+Branch: HEAD
+Signed-off by: danimesq.eth (0xDDfC2e10702d8A781727A34D83B3bb3CA94a3E91)
+Signature: 1536807e034f82c22785cc789700f785362426488c862dccb655c4cb963649cf0715eccee2bd4abdeda68b479e3a79bb7b4865f170e721ca179c90e7b475fc5800
+
+------------------------------
+
+Commit CID if including git's SHA1: QmRVzLQ15Q3VNLtmGicYwbCgRgiXWKyPa2TXA49mmC7Jq7
+Commit CID if containing only file hashes: QmbEPQ6fJqLnWBRCZSCiCrhR86WWNp2KgpLBHcCt7n3mEv
+
+------------------------------
+
+.gitmeta version: r8
+Local folder: /media/daniella/B/git/nerdy DAOs/FilePeace/Sites/Site
+Remote Name: origin
+Remote URL: https://github.com/FilePeace/filepeace.github.io.git
+
+------------------------------
+
+chown -h 1000:1000 '.folderstamp1'
+chmod 0664 '.folderstamp1'
+/usr/bin/touch -hcmd "2024-07-07 15:32:16.8557477000 -0300" '.folderstamp1'
+/usr/bin/touch -hcad "2024-07-07 15:32:30.1930058000 -0300" '.folderstamp1'
+chown -h 1000:1000 '.folderstamp2'
+chmod 0664 '.folderstamp2'
+/usr/bin/touch -hcmd "2024-07-07 15:32:22.9608661000 -0300" '.folderstamp2'
+/usr/bin/touch -hcad "2024-07-07 15:33:00.1255775000 -0300" '.folderstamp2'
+chown -h 1000:1000 '.folderstamp3'
+chmod 0664 '.folderstamp3'
+/usr/bin/touch -hcmd "2024-07-07 15:32:50.5523957000 -0300" '.folderstamp3'
+/usr/bin/touch -hcad "2024-07-07 15:33:00.3865825000 -0300" '.folderstamp3'
+chown -h 1000:1000 '.folderstamp4'
+chmod 0664 '.folderstamp4'
+/usr/bin/touch -hcmd "2024-07-07 15:33:07.9637257000 -0300" '.folderstamp4'
+/usr/bin/touch -hcad "2024-07-07 15:43:10.0339157000 -0300" '.folderstamp4'
+chown -h 1000:1000 '.folderstamp4.log.html5'
+chmod 0664 '.folderstamp4.log.html5'
+/usr/bin/touch -hcmd "2024-07-07 15:33:30.8861555000 -0300" '.folderstamp4.log.html5'
+/usr/bin/touch -hcad "2024-07-07 15:43:10.0509132000 -0300" '.folderstamp4.log.html5'
+chown -h 1000:1000 '.folderstamp5'
+chmod 0664 '.folderstamp5'
+/usr/bin/touch -hcmd "2024-07-07 15:33:45.6644300000 -0300" '.folderstamp5'
+/usr/bin/touch -hcad "2024-07-07 15:43:10.0769093000 -0300" '.folderstamp5'
+chown -h 1000:1000 '.folderstamp5.log.html5'
+chmod 0664 '.folderstamp5.log.html5'
+/usr/bin/touch -hcmd "2024-07-07 15:34:02.1277337000 -0300" '.folderstamp5.log.html5'
+/usr/bin/touch -hcad "2024-07-07 15:43:10.0769093000 -0300" '.folderstamp5.log.html5'
+chown -h 1000:1000 'icon.png'
+chmod 0664 'icon.png'
+/usr/bin/touch -hcmd "2024-07-07 15:35:04.3058618000 -0300" 'icon.png'
+/usr/bin/touch -hcad "2024-07-07 15:35:08.2259321000 -0300" 'icon.png'
+chown -h 1000:1000 'icon.png.log.html5'
+chmod 0664 'icon.png.log.html5'
+/usr/bin/touch -hcmd "2024-07-07 15:35:23.8442110000 -0300" 'icon.png.log.html5'
+/usr/bin/touch -hcad "2024-07-07 15:43:10.1009058000 -0300" 'icon.png.log.html5'
+chown -h 1000:1000 'icon.svg'
+chmod 0755 'icon.svg'
+/usr/bin/touch -hcmd "2023-01-31 14:58:41.3179676000 -0300" 'icon.svg'
+/usr/bin/touch -hcad "2024-07-07 15:34:31.6072720000 -0300" 'icon.svg'
+chown -h 1000:1000 'index.html'
+chmod 0755 'index.html'
+/usr/bin/touch -hcmd "2024-07-07 15:37:42.9376409000 -0300" 'index.html'
+/usr/bin/touch -hcad "2024-07-07 15:37:44.6736707000 -0300" 'index.html'
