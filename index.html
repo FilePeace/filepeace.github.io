@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us">
  <head>
-<title>FilePeace's site - Soon</title>
+<title>FilePeace's site</title>
 <meta name="description" content="">
 <meta name="keywords" content="">
 <link rel="shortcut icon" href="icon.png" type="image/x-icon">
@@ -11,10 +11,31 @@
 <body id="body">
 <center>
 <img src="./icon.svg" width="250px"/>
-<h1>FilePeace's site - Soon</h1>
+<h1>FilePeace's site</h1>
+<p>FilePeace is an organization building tools and advocacing for stronger data preservation knowledge & techniques.</p>
+<p>March 31: the World Backup Day. Although we have a day to mark the world data protection awareness, we should think about that <u>everyday</u>.</p>
+<h4>Summary</h4>
+<p>Quote from <a href="https://invenioit.com/continuity/top-causes-data-loss/" target="_blank">Invenio It</a>: "Roughly 1 out of 5 businesses experience more than 22 data-loss incidents every year, according to a report highlighted by PC World."</p>
+<p>When a file is lost, not only their own history is lost as well: probably part of the whole humankind's history.</p>
+<p>Not only businesses', but also individual's data carry part of our collective history (eg. GeoCities).</p>
+<p>According to <a href="https://www.cnet.com/tech/services-and-software/geocities-dies-in-march-2019-and-with-it-a-piece-of-internet-history/" target="_blank">CNet</a>: "GeoCities dies in March 2019, and with it a piece of internet history".</p>
+<p>Thankfully, archivers have <a href="https://blog.geocities.institute/archives/2698" target="_blank">saved most of GeoCities' data</a>, but they used a Torrent site URL (The Pirate Bay) to share rather than the actual magnet (!), making it almost inaccessible. Unlike on IPFS, where all file sharing URLs contain the actual file CID you can use to reach the download.</p>
+<p>By reading <a href="https://www.spiceworks.com/tech/data-management/articles/data-loss-horror-stories-world-backup-day-2024/" target="_blank">horror histories about data loss</a> (the GeoCities backup itself being likely lost after a link sharing mistake), you could learn how lucky you may be if you never suffered data losses and how to avoid them.</p>
 <!--<a href="https://pol3.io/" target="_blank" style="padding-right:15px"><img src="https://pol3.io/press/press-kit/img/logotype-plain_black.svg" style="opacity: 0.7;" width="150px"></a> <a href="https://xusdchain.github.io/" target="_blank" style="padding-right:15px"><img src="https://xusdchain.github.io/press/press-kit/img/logotype-plain_black.svg" style="opacity: 0.7;" width="150px"></a> <a href="https://plasmiumchain.github.io/" target="_blank" style="padding-right:15px"><img src="https://plasmiumchain.github.io/press/press-kit/img/logotype-plain_black.svg" style="opacity: 0.7;" width="250px"></a> <a href="https://silvertapelabs.github.io/" target="_blank"><img src="https://silvertapelabs.github.io/press/press-kit/img/logotype-plain_black.svg" style="opacity: 0.7;" width="200px"></a>-->
 <h3></h3>
 </center>
+
+<p>Beyond using IPFS and building over it, FilePeace makes other tools to ensure not only the preservation of data, but their history. A list of our tools bellow:</p>
+
+<h4>Tools we build:</h4>
+<ul>
+<li><a href="https://onchain-ipfs.vercel.app" target="_blank">Onchain IPFS</a> - Make your files permanent by storing them onchain. Store files referenced by Ethereum L1, on L2! A 100% Ethereum-aligned alternative to Arweave. Helps Arweave itself to be linked to an IPFS CID. Currently, Filecoin and Arweave (two non-Ethereum L1s) are the only way to store NFT metadata and other IPFS files' contents onchain. On Arweave, it is harder to obtain the file content for those used to IPFS. Onchain IPFS come to solve both issues: onchain storage (using the Ethereum-aligned L2 Base) and linking: CID<->Arweave TXID<->Torrent URI.</li>
+<li><a href="https://github.com/FilePeace/folderstamp" target="_blank">folderstamp</a> - Preserve/snapshot the current state of a folder, with its file list and timestamps</li>
+<li><a href="https://github.com/FilePeace/webpresent" target="_blank">webpresent</a> - special files containing the origin of their counterpart file, being this a git repo, Google Drive, IPFS, a torrent, etc. They can serve also for storing where a file has been uploaded to, ensuring it has a backup. Useful for versioning, where you can download binary and other huge files on repo cloning/pulling.</li>
+<li>🇧🇷 <a href="https://github.com/FilePeace/verifact-hash" target="_blank">verifact-hash</a></li>
+</ul>
+
+<hr/>
 
 <hr/>
 <copyright><center><!--<a href="https://aragon.plasmmer.com/#/floflis/" target="_blank"><img width="350px" src="img/5d30129fbe8118efde2a8a25_Badge Dark.svg"/></a><br/>-->(c) 2022-2024 FilePeace <!--<a href="https://aragon.plasmmer.com/#/floflis/" target="_blank">DAO</a>--> by <a href="https://floflis.com/" target="_blank" style="opacity: unset;"><img height="22px" alt="Floflis DAO" src="https://floflis.com/os/logotype_black.svg" title="Floflis DAO"></a>.</center></copyright>
