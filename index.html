@@ -1,18 +1,57 @@
 <!DOCTYPE html>
 <html lang="en-us">
  <head>
-<title>FilePeace's site</title>
-<meta name="description" content="">
-<meta name="keywords" content="">
-<link rel="shortcut icon" href="icon.png" type="image/x-icon">
-<link rel="icon" href="icon.png" type="image/x-icon">
+  <title color="">FilePeace</title>
+<meta charset="utf-8">
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta content="width=device-width,initial-scale=1,minimal-ui,shrink-to-fit=no,user-scalable=no" name="viewport">
+<base href="./">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
 <link rel="logo" href="flag.svg" border="true" />
+<script type="text/javascript" src="plugins/jQuery/jquery.min.js"></script>
+<script type="text/javascript" src="plugins/Popper.js/popper.min.js"></script>
+<script type="text/javascript" src="plugins/Bootstrap/js/bootstrap.min.js"></script>
+<script src="plugins/Bootstrap/themes/material/js/material.min.js"></script>
+<script type="text/javascript" src="js/page-common.js"></script>
+<link href="plugins/Bootstrap/themes/material/css/material.min.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="css/page-common.css">
+<link rel="stylesheet" type="text/css" href="css/app-common.css">
+<link rel="stylesheet" type="text/css" href="css/page-custom.css">
+<link rel="stylesheet" type="text/css" href="css/app-custom.css">
+<link href="fonts/Cabin/font.css" rel="stylesheet">
+<link href="fonts/Roboto/font.css" rel="stylesheet">
+<link href="fonts/Material Icons/font.css" rel="stylesheet">
+<link href="fonts/Sui Generis V2/font.css" rel="stylesheet">
+<meta name="pehtml" content="true">
+<meta name="directory" content="css, js, img, snd">
+<meta name="description" content="">
+  <meta name="keywords" content="video, format, png, svg, flac, ogg, tar.gz-archives, usv, tar.gz">
  </head>
 <body id="body">
-<center>
-<img src="./icon.svg" width="250px"/>
-<h1>FilePeace's site</h1>
-<p>FilePeace is an organization building tools and advocacing for stronger data preservation knowledge & techniques.</p>
+<div id="app">
+<header><a href="././"><logo title="FilePeace"></logo></a>
+<a title="Login with your Plasmmer account" href="https://accounts.plasmmer.com/login?redirectto=gamlr.github.io" class="btn btn-light btn-sm" style="float: right;"><div style="background: url(https://web.archive.org/web/20230405192028/https://orgut.co/PF.Site/flavors/bootstrap/assets/logos/logo_default.png) no-repeat no-repeat 0px 0px;width: 32px;height: 32px;background-size: 168px;padding: 0 0px 0px 0px;/*! line-height: -7px; */vertical-align: middle;display: inline-block;"></div> Sign-in</a>
+<nav>
+<ul style="
+    overflow: hidden!important;
+">
+<!--<a href="././"><li><div><i class="material-icons">home</i></div><p>Home</p></li></a>-->
+<!--<a href=""><li><div><i class="material-icons">widgets</i></div><p>Elements</p></li></a>-->
+<!--<a href="./os"><li><div><i class="material-icons">book</i></div><p>FloflisOS</p></li></a>-->
+<a href="./press"><li><!--<div><i class="material-icons"></i></div>--><p>Press</p></li></a>
+<!--<a href="https://floflis.github.io/blog" target="_blank"><li><div><i class="material-icons">book</i></div><p>Blog</p></li></a>-->
+<!--<a href="" target="_blank"><li><div><i class="material-icons">comment</i></div><p>Forum</p></li></a>-->
+<!--<a href="https://floflis.github.io/docs" target="_blank"><li><div><i class="material-icons">book</i></div><p>Documentation</p></li></a>-->
+<!--<a href="./about.html"><li><div><i class="material-icons">info</i></div><p>About</p></li></a>-->
+<!--<a href="./games.html"><li>--<!--<div><i class="material-icons"></i></div>--><!--<p>Games</p></li></a>-->
+</ul>
+</nav></header>
+
+<div class="content">
+<article>
+<center><img src="./icon.svg" width="250px"/><h1>FilePeace is an organization building tools and advocacing for stronger data preservation knowledge & techniques.</h1></center>
+
 <p>March 31: the World Backup Day. Although we have a day to mark the world data protection awareness, we should think about that <u>everyday</u>.</p>
 <h4>Summary</h4>
 <p>Quote from <a href="https://invenioit.com/continuity/top-causes-data-loss/" target="_blank">Invenio It</a>: "Roughly 1 out of 5 businesses experience more than 22 data-loss incidents every year, according to a report highlighted by PC World."</p>
@@ -21,9 +60,6 @@
 <p>According to <a href="https://www.cnet.com/tech/services-and-software/geocities-dies-in-march-2019-and-with-it-a-piece-of-internet-history/" target="_blank">CNet</a>: "GeoCities dies in March 2019, and with it a piece of internet history".</p>
 <p>Thankfully, archivers have <a href="https://blog.geocities.institute/archives/2698" target="_blank">saved most of GeoCities' data</a>, but they used a Torrent site URL (The Pirate Bay) to share rather than the actual magnet (!), making it almost inaccessible. Unlike on IPFS, where all file sharing URLs contain the actual file CID you can use to reach the download.</p>
 <p>By reading <a href="https://www.spiceworks.com/tech/data-management/articles/data-loss-horror-stories-world-backup-day-2024/" target="_blank">horror histories about data loss</a> (the GeoCities backup itself being likely lost after a link sharing mistake), you could learn how lucky you may be if you never suffered data losses and how to avoid them.</p>
-<!--<a href="https://pol3.io/" target="_blank" style="padding-right:15px"><img src="https://pol3.io/press/press-kit/img/logotype-plain_black.svg" style="opacity: 0.7;" width="150px"></a> <a href="https://xusdchain.github.io/" target="_blank" style="padding-right:15px"><img src="https://xusdchain.github.io/press/press-kit/img/logotype-plain_black.svg" style="opacity: 0.7;" width="150px"></a> <a href="https://plasmiumchain.github.io/" target="_blank" style="padding-right:15px"><img src="https://plasmiumchain.github.io/press/press-kit/img/logotype-plain_black.svg" style="opacity: 0.7;" width="250px"></a> <a href="https://silvertapelabs.github.io/" target="_blank"><img src="https://silvertapelabs.github.io/press/press-kit/img/logotype-plain_black.svg" style="opacity: 0.7;" width="200px"></a>-->
-<h3></h3>
-</center>
 
 <p>Beyond using IPFS and building over it, FilePeace makes other tools to ensure not only the preservation of data, but their history. A list of our tools bellow:</p>
 
@@ -35,9 +71,27 @@
 <li>🇧🇷 <a href="https://github.com/FilePeace/verifact-hash" target="_blank">verifact-hash</a></li>
 </ul>
 
-<hr/>
-
-<hr/>
-<copyright><center><!--<a href="https://aragon.plasmmer.com/#/floflis/" target="_blank"><img width="350px" src="img/5d30129fbe8118efde2a8a25_Badge Dark.svg"/></a><br/>-->(c) 2022-2024 FilePeace <!--<a href="https://aragon.plasmmer.com/#/floflis/" target="_blank">DAO</a>--> by <a href="https://floflis.com/" target="_blank" style="opacity: unset;"><img height="22px" alt="Floflis DAO" src="https://floflis.com/os/logotype_black.svg" title="Floflis DAO"></a>.</center></copyright>
+</article>
+<footer><div class="footer-shadow"></div>
+<center>Last update in Thu Jul 11 16:23 2024 -0300.<!-- <a href="http://status.gamlr.tld/" target="_blank">Status</a>.--></center><a href="https://framework.js.org/" target="blank"><img src="https://img.shields.io/badge/built%20with-Framework.js%20(r1)-00A185.svg"></a><!--<a href="https://plasnerd.github.io/PEHTML/" target="blank"><img src="https://plasnerd.github.io/PEHTML/img/seal-2.png" width="167px" height="94px" style="-webkit-user-drag:element"></a>-->
+<div class="social-icons">
+<!--<a href="https://play.google.com/store/apps/dev?id=5338162510346666546" target="blank"><img src="img/social/google-play.svg" width="40px" height="40px" title="Install our games and apps" alt="Play Store"></a>-->
+<!--<a href="https://tiktok.com/@idanimesq" target="blank"><img src="img/social/tiktok.svg" width="40px" height="40px" title="Watch our videos with news/gameplays/tutorials/competitions" alt="Tiktok" class="round"></a>
+<a href="https://www.youtube.com/@mesquitadaniella/" target="blank"><img src="img/social/youtube.svg" width="40px" height="40px" title="Watch our videos with news/gameplays/tutorials/competitions" alt="Youtube" class="round"></a>
+<a href="https://instagram.com/idanimesq" target="blank"><img src="img/social/instagram.svg" width="40px" height="40px" title="Follow us at Instagram" alt="Instagram"></a>
+<a href="https://twitter.com/DaniMesqBR/" target="blank"><img src="img/social/twitter.svg" width="40px" height="40px" title="Follow us and receive latest news feed about Gamlr's updates/new games" alt="Twitter"></a>
+<a href="https://discord.gg/ZGJn577sUC" target="blank"><img src="img/social/discord.svg" width="40px" height="40px" title="Chat and brainstorm with us on Discord!" alt="Discord" class="round"></a>-->
+<!--<a href="https://www.reddit.com/r/floflis/" target="blank"><img src="img/social/reddit.svg" width="40px" height="40px" title="Yes, we have a base in the Reddit planet" alt="Reddit" class="round"></a>-->
+<!--<a rel="me" href="https://mastodon.social/@floflis" target="blank"><img src="img/social/mastodon.svg" width="40px" height="40px" title="Follow us on Mastodon and receive latest news feed about Floflis and other useful projects" alt="Mastodon" class="round"></a>-->
+<!--<a href="https://riot.im/app/#/+floflis:matrix.org" target="blank"><img src="img/social/riot.svg" width="40px" height="40px" title="Chat with us or get support" alt="Riot.im" class="round"></a>-->
+<!--<a href="https://matrix.to/#/#openplanetnews:matrix.org" target="blank"><img src="img/social/riot.svg" width="40px" height="40px" title="Enable notifications for our updates" alt="Riot.im" class="round"></a>-->
+<a href="https://github.com/filepeace" target="blank"><img src="img/social/github.svg" width="40px" height="40px" title="See first the news and improve FilePeace's projects in GitHub" alt="GitHub"></a>
+<!--<a href="https://gitlab.com/floflis" target="blank"><img src="img/social/gitlab.svg" title="See first the news and improve Floflis in GitLab" alt="GitLab" class="round" width="40px" height="40px"></a>--><!-- <a href="https://facebook.com/" target="blank"><img src="img/social/facebook.svg" width="40px" height="40px" title="Like us and receive latest news feed about FrameworkJS progress and other development tools" alt="Facebook"></a>--><!--<a href="https://opencollective.com/floflis" target="blank"><img src="img/social/opencollective.svg" width="40px" height="40px" title="Contribute to Floflis in Open Collective" alt="Twitter"></a>--><!--<a href="https://.deviantart.com" target="blank"><img src="img/social/deviantart.svg" width="40px" height="40px" title="Follow us and receive latest backgrounds, designs and apps" alt="Deviantart"></a>--></div>
+<div class="social-buttons"></div>
+<!--<div style="margin-top:55px;float:right;"><a href="./privacy.html">Privacy Policy</a></div>-->
+<copyright><center><center><a href="https://aragon.plasmmer.com/#/gamlr/" target="_blank"><img width="350px" src="img/5d30129fbe8118efde2a8a25_Badge Dark.svg"/></a><br/>(c) 2022-2024 FilePeace <!--<a href="https://aragon.plasmmer.com/#/gamlr/" target="_blank">DAO</a>--> by <a href="https://floflis.com/" target="_blank" style="opacity: unset;"><img height="22px" alt="Floflis DAO" src="https://floflis.com/os/logotype_white.svg" title="Floflis DAO"></a>.<!-- Illustrations from <a href="https://undraw.co/" target="blank">UnDraw</a>.--></center></copyright>
+</footer>
+</div>
+</div>
 </body>
 </html>
